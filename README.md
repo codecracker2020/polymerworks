@@ -11,7 +11,6 @@ First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polyme
 ```
 $ polymer serve
 ```
-Or 
 
 ## To compile and start server
 $ gulp serve
