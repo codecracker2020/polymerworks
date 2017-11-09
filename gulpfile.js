@@ -27,10 +27,10 @@ gulp.task('sass:watch', function () {
 });
 
 gulp.task('compile:index', getTask('compile.index'));
-gulp.task('compile:sass');
-gulp.task('serve', ['compile:sass', 'compile:index'], function () {
+//gulp.task('compile:sass');
+gulp.task('serve', ['sass', 'compile:index'], function () {
     connect.server({
-        root: 'demo',
+        root: '',
         port: 8887,
         livereload: true
     });
