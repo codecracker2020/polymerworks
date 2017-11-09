@@ -13,10 +13,14 @@ $ polymer serve
 ```
 
 ## To compile and start server
+```
 $ gulp serve
+```
 
 ## Compiliing scss to css
+```
 $ gulp sass 
+```
 
 ## Running Tests
 
