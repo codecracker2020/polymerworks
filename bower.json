@@ -1,0 +1,15 @@
+{
+  "name": "polymerworks-element",
+  "main": "polymerworks-element.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.6.0"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^1.6.0",
+    "webcomponentsjs": "^0.7.24"
+  }
+}

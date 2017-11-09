@@ -1,0 +1,26 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="my-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[myName]]!</h2>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'my-element',
+      properties: {
+        myName: {
+          type: String,
+          value: function () {
+            return "Naveen"
+          }
+        }
+      }
+    });
+  </script>
+</dom-module>
