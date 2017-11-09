@@ -1,0 +1,22 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-progress/paper-progress.html">
+
+<dom-module id="paper-progress-demo">
+    <template>
+
+        <paper-progress indeterminate class="blue" style="width:100%"></paper-progress>
+        <Br>
+        <paper-progress indeterminate class="slow yellow" style="width:100%"></paper-progress>
+        <br>
+        <paper-progress value="40" secondary-progress="20" style="width:100%"></paper-progress>
+    </template>
+
+    <script>
+        Polymer({
+            is: 'paper-progress-demo',
+            properties: {
+
+            }
+        });
+    </script>
+</dom-module>

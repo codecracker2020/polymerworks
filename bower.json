@@ -2,7 +2,9 @@
   "name": "polymerworks-element",
   "main": "polymerworks-element.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.6.0"
+    "polymer": "Polymer/polymer#^1.6.0",
+    "paper-progress": "^2.0.1",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
