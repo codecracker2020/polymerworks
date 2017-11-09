@@ -11,6 +11,13 @@ First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polyme
 ```
 $ polymer serve
 ```
+Or 
+
+## To compile and start server
+$ gulp serve
+
+## Compiliing scss to css
+$ gulp sass 
 
 ## Running Tests
 
